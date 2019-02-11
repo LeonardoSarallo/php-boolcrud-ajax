@@ -1,6 +1,6 @@
 <?php include 'partials/_head.php'; ?>
 
-  <div class="container">
+  <div class="container index">
     <div class="row">
       <div class="col-12">
         <h1>Ospiti</h1>
@@ -14,6 +14,7 @@
               <th>Id</th>
               <th>Nome</th>
               <th>Cognome</th>
+              <th>Cancella</th>
             </tr>
           </thead>
           <tbody>
@@ -28,6 +29,9 @@
       <td>{{id}}</td>
       <td>{{name}}</td>
       <td>{{lastname}}</td>
+      <td>
+        <button class="btn btn-danger delete-button" data-id={{id}}>Cancella</button>
+      </td>
     </tr>
   </script>
 

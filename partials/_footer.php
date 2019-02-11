@@ -1,0 +1,3 @@
+<script src="script/main.js" charset="utf-8"></script>
+</body>
+</html>
